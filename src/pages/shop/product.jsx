@@ -10,6 +10,7 @@ export const Product = (props) => {
   const handleSingleBook = (id, productImage, productName) => {
     navigate("/book", { state: { detail: [id, productImage, productName] } });
   };
+
   return (
     <div className="product">
       <img
